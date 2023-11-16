@@ -9,3 +9,5 @@ export const StyledLink = styled(NavLink)`
     
 `;
 
+export const StyledLoading = styled.div``;
+
