@@ -3,7 +3,7 @@ import { useSearchParams } from "react-router-dom";
 import { fetchByQuery } from "services/api";
 import { MovieList, MovieSearch } from "components";
 
-export const Movies = () => {
+const Movies = () => {
 
   const [movie, setMovie] = useState([]);
   const [searchParams] = useSearchParams(); 
@@ -28,3 +28,5 @@ export const Movies = () => {
       </>
     );
   };
+
+export default Movies;

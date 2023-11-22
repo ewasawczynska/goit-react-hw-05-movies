@@ -1,3 +1,1 @@
-import { Movies } from "./Movies";
-
-export { Movies };
+export * from './Movies';

@@ -7,9 +7,7 @@ export const SharedLayout = () => {
         <StyledContainer>
         <StyledHeader>
           <nav>
-        <StyledLink to="/">
-          Home
-        </StyledLink>
+        <StyledLink to="/">Home</StyledLink>
         <StyledLink to="/movies">Movies</StyledLink>
       </nav>
         </StyledHeader>

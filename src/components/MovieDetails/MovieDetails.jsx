@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 import { fetchMoviesDetails } from "services/api";
 import { StyledContainer, StyledItem, StyledLink, StyledLinkBack, StyledMainInfobox, StyledSecondInfobox } from "./MovieDetails.styled";
 
-export const MovieDetails = () => {
+const MovieDetails = () => {
 
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -62,3 +62,5 @@ export const MovieDetails = () => {
       <Outlet />
     </>);
 }
+
+export default MovieDetails;

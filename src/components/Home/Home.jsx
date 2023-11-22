@@ -3,7 +3,7 @@ import { MovieList } from 'components';
 import { fetchMovies } from 'services/api';
 import { StyledHeader } from './Home.styled';
 
-export const Home = () => {
+const Home = () => {
 
   const [movies, setMovies] = useState([]);
   const [isLoading, setIsLoading] = useState(false);
@@ -33,3 +33,5 @@ fetchMovies()
     </>
   );
 };
+
+export default Home;

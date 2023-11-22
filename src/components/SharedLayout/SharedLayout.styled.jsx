@@ -6,7 +6,6 @@ export const StyledContainer = styled.div``;
 export const StyledHeader = styled.header``;
 
 export const StyledLink = styled(NavLink)`
-    
 `;
 
 export const StyledLoading = styled.div``;
