@@ -28,7 +28,7 @@ fetchMovies()
   return (
     <>
     {isLoading && "Loading..."}
-<StyledHeader>Trending today</StyledHeader>
+<StyledHeader>Trending today 🔝</StyledHeader>
 <MovieList movies={movies}/>
     </>
   );

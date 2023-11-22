@@ -28,7 +28,7 @@ export const Reviews = () => {
       <ul>
         {reviews.map(({ id, author, content }) => (
           <li key={id} style={{ listStyle: 'none' }}>
-            <StyledTitle>Author: {author}</StyledTitle>
+            <StyledTitle>🗒️ Author: {author}</StyledTitle>
             <StyledContent>{content}</StyledContent>
           </li>
         ))}

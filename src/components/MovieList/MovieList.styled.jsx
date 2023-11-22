@@ -2,13 +2,12 @@ import styled from "styled-components";
 import { Link } from 'react-router-dom';
 
 export const StyledItem = styled.li`
+&:hover, &:focus {
+    font-weight: 900;
+}
 `;
 
 export const StyledLink = styled(Link)`
-`;
-
-export const StyledList = styled.ul`
-`;
-
-export const StyledText = styled.p`
+color: black;
+text-decoration: none;
 `;

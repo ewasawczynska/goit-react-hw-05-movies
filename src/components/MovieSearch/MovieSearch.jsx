@@ -21,7 +21,7 @@ const handleSubmit = e => {
         autoFocus
         defaultValue={searchMovie}
         />
-        <StyledButton type="submit">Search</StyledButton>
+        <StyledButton type="submit">🔎</StyledButton>
       </StyledForm>
       </>
     );

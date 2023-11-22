@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { useParams } from 'react-router-dom';
-import { fetchMoviesCredits } from '../../services/api'
-import { StyledList, StyledItem } from './Cast.styled';
+import { fetchMoviesCredits } from '../../services/api';
+import { StyledList, StyledItem, StyledImg } from './Cast.styled';
 import PropTypes from 'prop-types';
 
 export const Cast = () => {
@@ -27,7 +27,7 @@ export const Cast = () => {
       <StyledList>
         {cast.map(({ id, name, profile_path, character }) => (
           <StyledItem key={id}>
-            <img
+            <StyledImg
               src={`https://image.tmdb.org/t/p/w200/${profile_path}`}
               alt={name}
             />
