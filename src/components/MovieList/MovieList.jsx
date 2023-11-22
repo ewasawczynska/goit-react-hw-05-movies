@@ -16,7 +16,7 @@ export const MovieList = ({ movies }) => {
       </StyledList>
     );
   };
-  
+
   MovieList.propTypes = {
     movies: PropTypes.arrayOf(
       PropTypes.shape({
