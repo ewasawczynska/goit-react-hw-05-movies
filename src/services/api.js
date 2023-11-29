@@ -1,11 +1,11 @@
 import axios from 'axios';
 
-const API_KEY = process.env.REACT_APP_API_KEY;
+const API_KEY = "fc7460eeabd88bbc001e4b48437c083e";
 
 
 axios.defaults.baseURL = 'https://api.themoviedb.org/3';
 
-const params = {
+const params = { 
     trending: '/trending/movie/week',
     querySearch: '/search/movie',
     movieDetails: '/movie',
